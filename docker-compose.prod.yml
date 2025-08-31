@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  content-research-agent:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENAI_API_KEY=sk-proj-12345
+      - TWILIO_PHONE_NUMBER=your_twilio_phone_number
+      - TWILIO_ACCOUNT_SID=your_twilio_account_sid
+      - TWILIO_AUTH_TOKEN=your_twilio_auth_token
+      - TARGET_PHONE_NUMBER=your_personal_phone_number
+      - WEBHOOK_URL=your_twilio_webhook_url
+    env_file:
+      - .env
+    restart: always
