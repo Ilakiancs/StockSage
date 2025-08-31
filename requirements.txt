@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+twilio
+python-multipart
+python-dotenv
+openai
+openai-agents
+asyncio
+apscheduler
+yfinance
+pydantic
