@@ -79,4 +79,4 @@ docker run -p 8000:8000 --env-file .env stock-tracker
 4. prevents duplicate alerts per day
 5. accepts SMS commands to manage stock list
 
-made by ilakiancs# StockSage
+made by ilakiancs
