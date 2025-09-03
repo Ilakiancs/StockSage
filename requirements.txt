@@ -9,3 +9,8 @@ asyncio
 apscheduler
 yfinance
 pydantic
+pytest
+pytest-asyncio
+pytest-mock
+coverage
+psutil
